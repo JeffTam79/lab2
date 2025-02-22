@@ -40,20 +40,33 @@
         </tr>
         <tr>
             <td>
+                <pre><code>&lt;ol&gt;&lt;/ol&gt;</code></pre>
+            </td>
+            <td>A tag used to create an ordered (numbered) list.</td>
+            <td>
+                <pre><code>&lt;ol&gt;
+    &lt;li&gt;First item&lt;/li&gt;
+    &lt;li&gt;Second item&lt;/li&gt;
+    &lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <pre><code>&lt;a&gt;&lt;/a&gt;</code></pre>
             </td>
-            <td>A tag used to create a hyperlink to another web page or location.</td>
+            <td>A tag used to create a hyperlink to another web page or location. The <code>target="_blank"</code> attribute is used to open the link in a new tab.</td>
             <td>
-                <pre><code>&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;</code></pre>
+                <pre><code>&lt;a href="https://www.example.com" target="_blank"&gt;Visit Example&lt;/a&gt;</code></pre>
             </td>
         </tr>
         <tr>
             <td>
                 <pre><code>&lt;img&gt;</code></pre>
             </td>
-            <td>A tag used to embed an image in a webpage. It is self-closing.</td>
+            <td>A tag used to embed an image in a webpage. It is self-closing. The example includes a local directory path and additional attributes like <code>width</code> and <code>height</code>.</td>
             <td>
-                <pre><code>&lt;img src="image.jpg" alt="A descriptive image" /&gt;</code></pre>
+                <pre><code>&lt;img src="img/image.jpg" alt="A descriptive image" width="500" height="300" /&gt;</code></pre>
             </td>
         </tr>
         <tr>
